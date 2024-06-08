@@ -54,10 +54,8 @@ jobs:
       #   run: php please ssg:generate
       - name: Directory Permissions
         run: chmod -R 777 storage
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     path: ./storage/app/static
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
