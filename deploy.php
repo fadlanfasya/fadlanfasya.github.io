@@ -40,7 +40,7 @@ set('composer_options', '--verbose --prefer-dist --no-progress --no-interaction 
 // HARUS DIGANTI SESUAI KEBUTUHAN ANDA
 
 host('host') // Nama remote host server ssh anda | contoh host('NAMA_REMOTE_HOST')
-->setHostname('192.168.1.5') // Hostname atau IP address server anda | contoh  ->setHostname('10.10.10.1') 
+->setHostname('20.205.243.166') // Hostname atau IP address server anda | contoh  ->setHostname('10.10.10.1') 
 ->set('remote_user', 'u12345678') // SSH user server anda | contoh ->set('remote_user', 'u1234567')
 ->set('port', 65002) // SSH port server anda, untuk kasus ini server yang saya gunakan menggunakan port custom | contoh ->set('remote_user', 65002)
 ->set('branch', 'master') // Git branch anda
